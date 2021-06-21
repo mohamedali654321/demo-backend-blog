@@ -26,6 +26,7 @@
     "ckeditor5-build-full-plugins": "^12.0.7",
     "content-type-parser": "^1.0.2",
     "csv-parse": "^4.16.0",
+    "file-saver": "^2.0.5",
     "get-urls": "^10.0.0",
     "knex": "0.21.18",
     "moment": "^2.29.1",
