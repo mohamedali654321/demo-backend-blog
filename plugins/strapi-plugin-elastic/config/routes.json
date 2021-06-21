@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/migrate-Models",
+      "handler": "elasticsearch.migrateModels",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/migrate-model",
+      "handler": "elasticsearch.migrateModel",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/generate-mappings/:model",
+      "handler": "elasticsearch.generateIndexConfig",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/create-index",
+      "handler": "elasticsearch.createIndex",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/delete-index",
+      "handler": "elasticsearch.deleteIndex",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/search",
+      "handler": "elasticsearch.search",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/models",
+      "handler": "elasticsearch.fetchModels",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/model",
+      "handler": "elasticsearch.fetchModel",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

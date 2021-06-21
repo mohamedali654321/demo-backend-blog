@@ -1,0 +1,62 @@
+{
+  "name": "backend-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@akilli/ckeditor4-build-classic": "^0.1.0",
+    "@buffetjs/styles": "^3.3.6",
+    "@ckeditor/ckeditor5-build-classic": "^28.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@elastic/elasticsearch": "^7.13.0",
+    "@jerseywatch/ckeditor4-react": "^0.1.2",
+    "axios": "^0.21.1",
+    "bad-words": "^3.0.4",
+    "buffetjs": "^1.0.6",
+    "ckeditor-full": "^4.7.3",
+    "ckeditor4-react": "^2.0.0-rc.1",
+    "ckeditor4-react-advanced": "^1.1.7",
+    "ckeditor5-build-full-plugins": "^12.0.7",
+    "content-type-parser": "^1.0.2",
+    "csv-parse": "^4.16.0",
+    "get-urls": "^10.0.0",
+    "knex": "0.21.18",
+    "moment": "^2.29.1",
+    "pg": "8.5.1",
+    "react-bootstrap": "^1.6.1",
+    "react-ckeditor-4": "^4.11.1",
+    "react-ckeditor-component": "^1.1.0",
+    "rss-parser": "^3.12.0",
+    "simple-statistics": "^7.7.0",
+    "strapi": "3.6.3",
+    "strapi-admin": "3.6.3",
+    "strapi-connector-bookshelf": "3.6.3",
+    "strapi-plugin-content-manager": "3.6.3",
+    "strapi-plugin-content-type-builder": "3.6.3",
+    "strapi-plugin-email": "3.6.3",
+    "strapi-plugin-i18n": "^3.6.3",
+    "strapi-plugin-sitemap": "^1.2.5",
+    "strapi-plugin-upload": "3.6.3",
+    "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-utils": "3.6.3",
+    "striptags": "^3.2.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3b4b9e7b-6121-4e2f-b503-51b3eeb44ffe"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
