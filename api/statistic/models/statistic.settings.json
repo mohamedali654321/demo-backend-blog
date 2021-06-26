@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "name": "statistic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "like": {
+      "type": "integer"
+    },
+    "dislike": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "article": {
+      "model": "article",
+      "via": "statistic"
+    }
+  }
+}

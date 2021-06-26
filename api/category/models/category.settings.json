@@ -28,6 +28,10 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "articles": {
+      "via": "categories",
+      "collection": "article"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_source_sources",
+  "info": {
+    "name": "source",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

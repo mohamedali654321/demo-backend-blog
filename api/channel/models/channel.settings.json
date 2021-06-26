@@ -26,6 +26,10 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "articles": {
+      "via": "channel",
+      "collection": "article"
     }
   }
 }

@@ -35,6 +35,10 @@
           "localized": true
         }
       }
+    },
+    "articles": {
+      "via": "issue",
+      "collection": "article"
     }
   }
 }

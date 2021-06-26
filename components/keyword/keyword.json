@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_keyword_keywords",
+  "info": {
+    "name": "keyword",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "word": {
+      "type": "string"
+    }
+  }
+}

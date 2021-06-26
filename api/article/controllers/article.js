@@ -1,3 +1,4 @@
+  
 'use strict';
 
 /**
@@ -9,9 +10,8 @@ module.exports = {
     async findOne(ctx) {
         const { slug } = ctx.params;
     
-        const entity = await strapi.services.channel.findOne({ slug });
-        
-        return sanitizeEntity(entity, { model: strapi.models.channel });
+        const entity = await strapi.services.article.findOne({ slug });
+        console.log(entity.section)
+        return sanitizeEntity(entity, { model: strapi.models.article });
       },
-
 };
